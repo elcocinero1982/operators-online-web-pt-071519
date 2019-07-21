@@ -2,13 +2,13 @@ def unsafe?(speed)
 if unsafe 
   puts true
 else
-  false
+ puts false
 end
 
 
 
 def not_safe?(speed)
-	
+	not_safe ? : speed
 end
 	
 
